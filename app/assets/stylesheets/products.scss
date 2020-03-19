@@ -1,0 +1,39 @@
+.toppage_header{
+  background-color: lawngreen;
+  height: 130px;
+  .toppage_header_symbol{
+    text-align: center;
+    font-size: 80px;
+    color: floralwhite;
+  }
+}
+.users_infotmation{
+  font-size: 20px;
+  display: flex;
+  .users_information_name{
+    margin: auto;
+
+    width: 50%;
+    .users_information_name_box{
+      margin: 20px 425px 20px 200px;
+      border: 2px solid #FD5;
+    }
+  }
+  .users_infotmation_register{
+    width: 50%;
+    text-align: right;
+    margin: auto;
+    .users_infotmation_register_box{
+      margin: 20px 40px 0px 0px;
+      .users_infotmation_register_new{
+        float: right;
+        border: 2px solid #FD5;
+      }
+      .users_infotmation_register_login{
+        float: right;
+        border: 2px solid #FD5;
+      }
+    }
+  }
+}
+
