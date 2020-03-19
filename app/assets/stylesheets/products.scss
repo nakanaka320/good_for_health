@@ -26,11 +26,11 @@
     .users_infotmation_register_box{
       margin: 20px 40px 0px 0px;
       .users_infotmation_register_new{
-      display: inline;
-      border: 2px solid #FD5;
+        float: right;
+        border: 2px solid #FD5;
       }
       .users_infotmation_register_login{
-        display: inline;
+        float: right;
         border: 2px solid #FD5;
       }
     }
