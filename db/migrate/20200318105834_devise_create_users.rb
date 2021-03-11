@@ -11,7 +11,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       t.integer :body_weight, null:false
       t.integer :body_height, null:false
       t.integer :age, null:false
-      t.string :like_sports, null:false
+      t.string :favorite, null:false
       t.string :prefecture, null: false
     
       ## Recoverable

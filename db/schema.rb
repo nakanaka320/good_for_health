@@ -10,7 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_18_105834) do
+ActiveRecord::Schema.define(version: 2020_03_24_035300) do
+
+  create_table "favorites", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "like_sports", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "prefectures", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -20,7 +35,7 @@ ActiveRecord::Schema.define(version: 2020_03_18_105834) do
     t.integer "body_weight", null: false
     t.integer "body_height", null: false
     t.integer "age", null: false
-    t.string "like_sports", null: false
+    t.string "favorite", null: false
     t.string "prefecture", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"

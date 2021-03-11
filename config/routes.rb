@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   resources :users do
     collection do
       get 'step1'
-      # get 'registration/step1', to: 'users#step1_save'
+      get 'registration/step1', to: 'users#step1_save' 
+      get 'step2'
+      post 'registration/step2', to: 'users#step2_save'
       # get 'step2'
       # get 'registration-step2', to: 'users#step2_save'
       # get 'step3'

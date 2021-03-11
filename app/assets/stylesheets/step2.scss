@@ -1,0 +1,23 @@
+@import"./reset";
+
+.registration{
+  width: 100vw;
+  height: 200vh;
+  .registration_box{
+    height: 100vh;
+    width: 40vw;
+    border: ridge khaki;
+    .registration_box_hukidasi{
+      text-align: center;
+      background-color: lightgrey;
+    }
+    .registration_box_contender{
+      background-color: beige;
+      .registration_box_contender_form{
+        width: 60%;
+        margin: 40px 0px 0px 80px;
+        
+          }
+        }
+    }
+  }
